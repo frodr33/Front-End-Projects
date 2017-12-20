@@ -1,0 +1,39 @@
+body {
+	border: #bdc3c7 solid 15px;
+	font-family: Source Sans Pro;
+	padding: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+h2 {
+	color: #2c3e50;
+}
+
+p {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+
+.div {
+	padding-bottom: 10px;
+	padding-left: 4px;
+	border-left: #bdc3c7 solid 3px;
+}
+
+.div2 {
+	padding-bottom: 15px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
