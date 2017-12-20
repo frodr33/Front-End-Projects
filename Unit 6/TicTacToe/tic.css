@@ -1,0 +1,38 @@
+h2 {
+	text-align: center;
+	margin: 3px 3px 3px 3px;
+}
+
+table {
+	margin: 10px auto auto auto;
+
+
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+
+}
+
+
+
+/* First start doing table by choosing the left and 
+	right side of middle column */
+tr td:nth-of-type(2) {
+	/*Could also use classes in HTML instead of nth-of-type*/
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+
+}
+
+/* Now start doing table by choosing the top and 
+	bottom side of middle row */
+
+tr:nth-of-type(2) td {
+	border-bottom: 1px black solid;
+	border-top: 1px black solid;
+}
+
+
