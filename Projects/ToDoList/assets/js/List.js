@@ -61,6 +61,11 @@ $("input[type= 'text']").keypress(function(e){
 		// Make new Li
 		var todoText = $(this).val();
 		$(this).val("");
-		$("ul").append("<li><span>X </span>" +  todoText + "</li>");
+		$("ul").append("<li><span><i class= 'fa fa-trash'></i></span>" +" " + todoText + "</li>");
 	}
+});
+
+// If clicked plus, add new ToDo
+$(".fa-plus").on("click", function(){
+	$("input[type= 'text']").fadeToggle();
 });
